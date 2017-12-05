@@ -55,12 +55,7 @@ public class MyTests extends BaseTest {
         //this.dashboardPage = new DashboardPage(driver);
         //this.newProductPage = new NewProductPage(driver);
     }
-
-        @Test
-        public void first() {
-            System.out.println("First");
-        }
-
+    
         @Test(dataProvider = "login")
         public void login(String email, String password) {
         try {
@@ -110,11 +105,6 @@ public class MyTests extends BaseTest {
         allProductsPage.isMyProductDisplaying();
         allProductsPage.openMyProduct();
         allProductsPage.checkMyProductName();
-    }
-
-    @Test
-    public void third() {
-        System.out.println("Third");
     }
 
     @AfterClass

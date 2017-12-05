@@ -16,18 +16,18 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="45" column="12" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/MyTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="887">
-              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="-235">
+              <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/Properties.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="e#833#834#0" expanded="true" />
                 <element signature="e#869#870#0" expanded="true" />
@@ -52,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/AllProductsPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="159">
-              <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+              <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#416#417#0" expanded="true" />
@@ -94,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -132,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/NewProductPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/AllProductsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/MyTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/MyTests.java" />
       </list>
     </option>
   </component>
@@ -440,18 +440,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__QA-90_Homework-4_testng_xml - 2017.12.05 at 14h 31m 55s.xml">
-      <configuration name="D:/QA-90_Homework-4/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__QA-90_Homework-4_testng_xml - 2017.12.05 at 14h 38m 32s.xml">
-      <configuration name="D:/QA-90_Homework-4/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__QA-90_Homework-4_testng_xml - 2017.12.05 at 14h 46m 00s.xml">
-      <configuration name="D:/QA-90_Homework-4/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__QA-90_Homework-4_testng_xml - 2017.12.05 at 14h 48m 07s.xml">
-      <configuration name="D:/QA-90_Homework-4/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__QA-90_Homework-4_testng_xml - 2017.12.05 at 14h 49m 59s.xml">
       <configuration name="D:/QA-90_Homework-4/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -468,6 +456,18 @@
       <configuration name="D:/QA-90_Homework-4/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="D__QA-90_Homework-4_testng_xml - 2017.12.05 at 17h 06m 28s.xml">
+      <configuration name="D:/QA-90_Homework-4/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__QA-90_Homework-4_testng_xml - 2017.12.05 at 21h 46m 58s.xml">
+      <configuration name="D:/QA-90_Homework-4/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__QA-90_Homework-4_testng_xml - 2017.12.05 at 21h 49m 10s.xml">
+      <configuration name="D:/QA-90_Homework-4/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__QA-90_Homework-4_testng_xml - 2017.12.05 at 21h 50m 36s.xml">
+      <configuration name="D:/QA-90_Homework-4/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__QA-90_Homework-4_testng_xml - 2017.12.05 at 21h 51m 33s.xml">
       <configuration name="D:/QA-90_Homework-4/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -727,14 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/objects/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -764,7 +756,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="e#833#834#0" expanded="true" />
             <element signature="e#869#870#0" expanded="true" />
@@ -775,25 +767,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/AllProductsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
-          <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/MyTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="887">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -803,7 +777,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#416#417#0" expanded="true" />
@@ -814,6 +788,32 @@
             <element signature="e#642#643#0" expanded="true" />
             <element signature="e#692#693#0" expanded="true" />
             <element signature="e#754#755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="45" column="12" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/MyTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
