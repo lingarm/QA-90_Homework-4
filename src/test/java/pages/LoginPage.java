@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import utils.BaseTest;
 import utils.Properties;
 
 public class LoginPage {
@@ -20,14 +21,15 @@ public class LoginPage {
     }
 
     public void fillEmailInput(String email) {
-        driver.findElement(emailInput).sendKeys(email);
+        BaseTest.sendKeys(driver, emailInput, email);
     }
 
     public void fillPassInput(String password) {
-        driver.findElement(passInput).sendKeys(password);
+        BaseTest.sendKeys(driver, passInput, password);
     }
 
     public void clickLoginBtn() {
         driver.findElement(loginBtn).click();
+        BaseTest.click(driver, loginBtn);
     }
 }

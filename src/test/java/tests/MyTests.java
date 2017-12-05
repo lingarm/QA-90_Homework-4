@@ -97,6 +97,7 @@ public class MyTests extends BaseTest {
         newProductPage.closeSettingsUpdatedMessage();
     }
 
+
     @Test(dependsOnMethods = "addNewProduct")
     public void checkProduct() {
         homePage = new HomePage(driver);
