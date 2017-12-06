@@ -19,6 +19,7 @@ public class MyTests extends BaseTest {
     NewProductPage newProductPage = null;
     HomePage homePage = null;
     AllProductsPage allProductsPage =null;
+    PersonalProductPage personalProductPage = null;
 
     Product product = null;
 
@@ -49,67 +50,77 @@ public class MyTests extends BaseTest {
 
     @BeforeClass
     public void beforeClass() {
-        System.out.println("Before Class");
         this.driver = getConfiguredDriver();
         this.loginPage = new LoginPage(driver);
-        //this.dashboardPage = new DashboardPage(driver);
-        //this.newProductPage = new NewProductPage(driver);
     }
-    
+
         @Test(dataProvider = "login")
         public void login(String email, String password) {
         try {
-            System.out.println("Test Class");
-            //LoginPage loginPage = new LoginPage();
+            this.loginPage = new LoginPage(driver);
             this.loginPage.open();
             this.loginPage.fillEmailInput(email);
             this.loginPage.fillPassInput(password);
             this.loginPage.clickLoginBtn();
         }
         catch(Exception ex) {
-            //quitDriver(driver);
+            quitDriver(driver);
         }
     }
 
     @Test(dependsOnMethods = "login", dataProvider = "product")
     public void addNewProduct(String number, String name, String quantity, String price, Integer properties) {
-        dashboardPage = new DashboardPage(driver);
+        try {
+            this.dashboardPage = new DashboardPage(driver);
 
-        dashboardPage.clickProduct();
-        dashboardPage.clickNewProduct();
+            this.dashboardPage.clickProduct();
+            this.dashboardPage.clickNewProduct();
 
-        product = new Product(number, name, quantity, price, properties);
-        newProductPage = new NewProductPage(driver, product);
+            this.product = new Product(number, name, quantity, price, properties);
+            this.newProductPage = new NewProductPage(driver, product);
 
-        newProductPage.addProductName();
-        newProductPage.addproductQuantity();
-        newProductPage.addProductPrice();
-        newProductPage.clickProductActivate();
-        newProductPage.isSettingsUpdatedMessage();
-        newProductPage.closeSettingsUpdatedMessage();
-        newProductPage.clickProductSave();
-        newProductPage.isSettingsUpdatedMessage();
-        newProductPage.closeSettingsUpdatedMessage();
+            this.newProductPage.addProductName();
+            this.newProductPage.addproductQuantity();
+            this.newProductPage.addProductPrice();
+            this.newProductPage.clickProductActivate();
+            this.newProductPage.isSettingsUpdatedMessage();
+            this.newProductPage.closeSettingsUpdatedMessage();
+            this.newProductPage.clickProductSave();
+            this.newProductPage.isSettingsUpdatedMessage();
+            this.newProductPage.closeSettingsUpdatedMessage();
+        }
+        catch(Exception ex) {
+            quitDriver(driver);
+        }
     }
 
 
     @Test(dependsOnMethods = "addNewProduct")
     public void checkProduct() {
-        homePage = new HomePage(driver);
+        try {
+            this.homePage = new HomePage(driver);
 
-        homePage.open();
+            this.homePage.open();
 
-        allProductsPage = new AllProductsPage(driver, this.product);
+            this.allProductsPage = new AllProductsPage(driver, this.product);
 
-        allProductsPage.clickAllProductsLink();
-        allProductsPage.isMyProductDisplaying();
-        allProductsPage.openMyProduct();
-        allProductsPage.checkMyProductName();
+            this.allProductsPage.clickAllProductsLink();
+            this.allProductsPage.isMyProductDisplaying();
+            this.allProductsPage.openMyProduct();
+
+            this.personalProductPage = new PersonalProductPage(driver, this.product);
+
+            this.personalProductPage.checkMyProductName();
+            this.personalProductPage.checkMyProductQuantity();
+            this.personalProductPage.checkMyProductPrice();
+        }
+        catch(Exception ex) {
+            quitDriver(driver);
+        }
     }
 
     @AfterClass
     public void afterClass() {
-        System.out.println("After Class");
-        //quitDriver(driver);
+        quitDriver(driver);
     }
 }
